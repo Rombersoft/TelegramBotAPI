@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramRSS", "TelegramRSS\TelegramRSS.csproj", "{EA4BA22E-C3B8-4849-AF3F-919B537F6DD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramHost", "TelegramHost\TelegramHost.csproj", "{CD3031E3-8994-48C1-926D-B690D5C382C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA4BA22E-C3B8-4849-AF3F-919B537F6DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4BA22E-C3B8-4849-AF3F-919B537F6DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4BA22E-C3B8-4849-AF3F-919B537F6DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4BA22E-C3B8-4849-AF3F-919B537F6DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD3031E3-8994-48C1-926D-B690D5C382C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3031E3-8994-48C1-926D-B690D5C382C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3031E3-8994-48C1-926D-B690D5C382C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3031E3-8994-48C1-926D-B690D5C382C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
