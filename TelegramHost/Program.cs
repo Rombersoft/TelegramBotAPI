@@ -11,7 +11,7 @@ namespace TelegramHost
         public static void Main(string[] args)
         {
             _eventResetHandler = new AutoResetEvent(false);
-            TelegramAPI telegramAPI = new TelegramAPI("278305922:AAEQmtHVWsJnbbWJ7PMZVDYxi2PKfRGI67M", true);
+            TelegramAPI telegramAPI = new TelegramAPI("278305922:AAEQmtHVWsJnbbWJ7PMZVDYxi2PKfRGI67M", null);
             telegramAPI.RunListener(HandleAction);
             _eventResetHandler.WaitOne();
         }
